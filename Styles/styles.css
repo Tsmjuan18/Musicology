@@ -74,3 +74,26 @@
     
     
 }
+
+
+/*DANCE TOUR*/
+
+#dance-tour{
+    display: flex;
+    background: #ff6600;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#dance-tour .section-img{
+    display: flex;
+    column-gap: ;
+}
+
+#dance-tour .section-img .content-image{
+
+   width: 374px
+
+}
