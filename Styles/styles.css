@@ -84,16 +84,283 @@
     color: white;
     flex-direction: column;
     align-items: center;
-
+    gap: 27px;
+    padding: 42px;
 }
 
-#dance-tour .section-img{
+
+#dance-tour .tittle-dance-tour{
+    padding: 30px;
     display: flex;
-    column-gap: ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 600px;
+}
+
+#dance-tour .tittle-dance-tour h2{
+margin-bottom: 20px;
+font-family: "Oswald";
+font-size: 70px;
+}
+
+#dance-tour .tittle-dance-tour p{
+    font-size: 20px;
+}
+#dance-tour .section-img {
+    display: flex;
+    column-gap: 50px;
+    
 }
 
 #dance-tour .section-img .content-image{
+   display: flex;
+   width: 372px;
+   flex-direction: column;
+   align-items: center;
+   gap: 8px;
+   text-align: center;
+   background-color: #333333;
+   padding: 0 0 30px 0;
+   
+   
+}
 
-   width: 374px
+
+
+
+
+
+
+/*PRICING*/
+#pricing{
+    display: flex;
+    background: #333333;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    gap: 31px;
+}
+
+#pricing .tittle-pricing{
+     padding: 30px;     
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+}
+
+#pricing .tittle-pricing h2{
+    margin-bottom: 20px;
+    font-family: "Oswald";
+    font-size: 70px;
 
 }
+
+#pricing .tittle-pricing p{
+    font-size: 20px;
+}
+
+
+#pricing .section-pricing{
+    display: flex;
+    column-gap: 50px;
+
+}
+
+#pricing .section-pricing .content-pricing{
+    
+    margin-bottom: 30px;
+    background: #ff6600;
+    width:280px;
+    padding:40px 25px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    
+    text-align: center;   
+}
+
+#pricing .section-pricing .content-pricing img{   
+    
+    margin-bottom:20px; 
+}
+
+#pricing .section-pricing .content-pricing h3,
+#pricing .section-pricing .content-pricing p{
+    
+    width: 200px;
+    padding: 10px;
+    display: flex;    
+    text-align: justify;
+}
+
+#pricing .section-pricing .content-pricing button{
+    background: #333333;
+    border: none;
+    color: white;
+    width: 200px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 3px;
+    font-size: 18px;
+}
+
+
+/*FOOTER*/
+#footer{
+    background: #ff6600;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*media query*/
+
+@media (min-width:921px)  and (max-width: 1279px){
+
+
+    .site-header{
+        background-color: aqua;
+        width: 1240px;
+    }
+
+     #dance-tour .section-img {
+    display: flex;
+    row-gap: 30px   ;
+    flex-wrap: wrap;
+    flex-direction: column;
+    }
+
+    
+    
+    
+    #dance-tour .section-img .content-image{
+    display: flex;
+    width: 372px;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    text-align: center;
+    background-color: #333333;
+    padding: 0 0 30px 0;
+    
+    
+    
+    }
+
+     #pricing .section-pricing .content-pricing{
+    
+    margin-bottom: 30px;
+    background: #ff6600;
+    width:185px;
+    padding:40px 25px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    
+    text-align: center;   
+    }
+    
+    #pricing .section-pricing .content-pricing button{
+    background: #333333;
+    border: none;
+    color: white;
+    width: 100px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 3px;
+    font-size: 18px;
+    }
+
+
+   
+
+
+
+
+
+}
+
+
+@media ( max-width: 920px){
+
+
+    .site-header{
+        background-color: rgb(248, 121, 3);
+        width: 800px;
+    }
+
+
+
+    #dance-tour .section-img {
+    display: flex;
+    row-gap: 30px   ;
+    flex-wrap: wrap;
+    flex-direction: column;
+    }
+
+    
+    
+    
+    #dance-tour .section-img .content-image{
+    display: flex;
+    width: 372px;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    text-align: center;
+    background-color: #333333;
+    padding: 0 0 30px 0;
+    
+    
+    
+    }
+    #pricing .section-pricing .content-pricing{
+    
+    margin-bottom: 30px;
+    background: #ff6600;
+    width:185px;
+    padding:40px 25px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    
+    text-align: center;   
+    }
+    
+    #pricing .section-pricing .content-pricing button{
+    background: #333333;
+    border: none;
+    color: white;
+    width: 100px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 3px;
+    font-size: 18px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
