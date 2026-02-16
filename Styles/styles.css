@@ -222,81 +222,16 @@ font-size: 70px;
 
 /*media query*/
 
-@media (min-width:921px)  and (max-width: 1279px){
+@media (max-width: 1279px){
 
+
+ 
 
     .site-header{
         background-color: aqua;
-        width: 1240px;
-    }
-
-     #dance-tour .section-img {
-    display: flex;
-    row-gap: 30px   ;
-    flex-wrap: wrap;
-    flex-direction: column;
-    }
-
-    
-    
-    
-    #dance-tour .section-img .content-image{
-    display: flex;
-    width: 372px;
-    flex-direction: column;
-    align-items: center;
-    gap: 8px;
-    text-align: center;
-    background-color: #333333;
-    padding: 0 0 30px 0;
-    
-    
-    
-    }
-
-     #pricing .section-pricing .content-pricing{
-    
-    margin-bottom: 30px;
-    background: #ff6600;
-    width:185px;
-    padding:40px 25px;
-    border-radius: 8px;
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-    
-    text-align: center;   
-    }
-    
-    #pricing .section-pricing .content-pricing button{
-    background: #333333;
-    border: none;
-    color: white;
-    width: 100px;
-    padding: 10px 15px 10px 15px;
-    border-radius: 3px;
-    font-size: 18px;
-    }
-
-
-   
-
-
-
-
-
-}
-
-
-@media ( max-width: 920px){
-
-
-    .site-header{
-        background-color: rgb(248, 121, 3);
-        width: 800px;
-    }
-
-
+        width: 100%;
+        max-width: 1279px;
+    }    
 
     #dance-tour .section-img {
     display: flex;
@@ -304,45 +239,40 @@ font-size: 70px;
     flex-wrap: wrap;
     flex-direction: column;
     }
+    
+    .section-pricing{
+    width: 100%;
+    max-width: 900px;
+    }
+   
+}
+
+@media(max-width:921){ 
+  
+    .site-header{
+    background-color: rgb(29, 17, 255);
+    width: 100%;
+    max-width: 921px;
+    }    
 
     
-    
-    
-    #dance-tour .section-img .content-image{
-    display: flex;
-    width: 372px;
-    flex-direction: column;
-    align-items: center;
-    gap: 8px;
-    text-align: center;
-    background-color: #333333;
-    padding: 0 0 30px 0;
-    
-    
-    
+}
+
+
+@media ( max-width: 920px){
+
+
+    .site-header{
+    background-color: rgb(119, 3, 235);
+    width: 100%;
+    max-width: 920px;
     }
-    #pricing .section-pricing .content-pricing{
-    
-    margin-bottom: 30px;
-    background: #ff6600;
-    width:185px;
-    padding:40px 25px;
-    border-radius: 8px;
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-    
-    text-align: center;   
-    }
-    
-    #pricing .section-pricing .content-pricing button{
-    background: #333333;
-    border: none;
-    color: white;
-    width: 100px;
-    padding: 10px 15px 10px 15px;
-    border-radius: 3px;
-    font-size: 18px;
+
+
+
+    .section-pricing{
+    width: 100%;
+    max-width: 850px;
     }
 }
 
